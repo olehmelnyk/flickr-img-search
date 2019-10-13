@@ -1,0 +1,16 @@
+.gallery-image-item {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+    background-size: cover;
+    background-image: url("https://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif");
+    background-position: center;
+    border-radius: .25rem;
+}
+
+.gallery-image-item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .5);
+}

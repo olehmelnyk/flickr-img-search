@@ -1,0 +1,20 @@
+.gallery-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-grid:empty:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100vw;
+    height: 70vh;
+    content: 'Flickr search';
+    color: #111;
+    font-size: 7vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}

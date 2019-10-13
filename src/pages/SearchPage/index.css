@@ -1,0 +1,18 @@
+.search-input {
+    width: 100%;
+    display: block;
+    background: #111;
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    opacity: .7;
+    transition: all .2s ease-in-out;
+    border-radius: .25rem;
+}
+
+.search-input:focus {
+    opacity: 1;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.5);
+}
